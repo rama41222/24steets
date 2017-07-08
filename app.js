@@ -9,5 +9,9 @@ app.config(($routeProvider)=>{
 		controller :'IntroCtrl',
 		templateUrl : 'app/views/intro.html' 
 	})
+	.otherwise({
+
+		redirectTo: '/'
+	});
 
 });
