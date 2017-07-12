@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html ng-app="24Streets">
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>24Streets</title>
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
 	<link rel="stylesheet" href="public/css/styles.css"/>
@@ -8,8 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.css">
 </head>
 <body>
-<div>
-	
+<div ng-cloak>
+	<div ng-include="'app/views/header.html'"></div>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-12">
@@ -30,5 +32,6 @@
 
 	<script src="app.js" type="text/javascript"></script>
 	<script src="app/controllers/intro.js" type="text/javascript"></script>
+	<script src="app/controllers/header.js" type="text/javascript"></script>
 </body>
 </html>
