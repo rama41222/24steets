@@ -1,14 +1,12 @@
-/* Set height to 100% for body and html to enable the background image to cover the whole page: */
 body, html {
- padding-top: 5% !important;
-width: 100%;
-height: 100%;
-background: url(../images/24SWebBack.jpg) center center no-repeat;;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-
+   padding-top: 5% !important;
+   width: 100%;
+   height: 100%;
+   background: url(../images/24SWebBack.jpg) center center no-repeat;;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 
 }
 
