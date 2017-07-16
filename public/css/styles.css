@@ -21,8 +21,14 @@ body, html {
     padding-top: 8% !important;
 }
 
-.navbar-btn{
-    color: #ff8a80!important;
+.navbar-inverse{
+    background: rgba(10,100,100,0.0) !important;
+    border: none!important;
+    
+}
+
+/*.navbar-btn{
+    color: #727272!important;
 }
 .navbar-btn:hover{
     background:none!important;
@@ -33,14 +39,14 @@ body, html {
 }
 
 .nav > li > a:hover{
-    background-color:none!important;
+    background:none!important;
 }
 
 .nav > li > a:focus, 
 .nav > li > a:hover 
 {
     text-decoration: none!important;
-    background-color: none!important;
+    background: none!important;
 }
 
-.navbar-inverse .navbar-nav > .active > a:focus {background-color: none!important;}
+.navbar-inverse .navbar-nav > .active > a:focus {background: none!important;}*/
